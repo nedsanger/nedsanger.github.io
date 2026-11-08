@@ -4,12 +4,12 @@ title: Work
 
 # Papers
 
-|                                                                                                                                                                                                               |           |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------: |
-| Superlative Concepts<br>with Dylan Bumford                                                                                                                                                                    |  In prep. |
-| A Logic for Summative Existentials<br>*Proceedings of the 18th Amsterdam Colloquium*                                                                                                                          | To appear |
-| A Dynamic Theory of Fake φ-Features<br>*Proceedings of NELS 57*                                                                                                                                               | To appear |
-| [The Computational Complexity of Quantifier Raising](files/qr-complexity-2025.pdf)<br>*Proceedings of MoL 18*<br>Note: This is an update of the [proceedings paper](https://aclanthology.org/2025.mol-1.12/). |      2025 |
+|                                                                                                                                                                                                            |           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------: |
+| Superlative Concepts<br>with Dylan Bumford                                                                                                                                                                 |  In prep. |
+| A Logic for Summative Existentials<br>*Proceedings of the 18th Amsterdam Colloquium*                                                                                                                       | To appear |
+| A Dynamic Theory of Fake φ-Features<br>*Proceedings of NELS 57*                                                                                                                                            | To appear |
+| [The Computational Complexity of Quantifier Raising](files/qr-complexity-2025.pdf)<br>*Proceedings of MoL 18*<br>(This is an update of the [proceedings paper](https://aclanthology.org/2025.mol-1.12/).) |      2025 |
 
 # Presentations
 
