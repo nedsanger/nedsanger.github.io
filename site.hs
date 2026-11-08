@@ -25,6 +25,10 @@ main = hakyllWith config $ do
         route idRoute
         compile copyFileCompiler
 
+    match "CNAME" $ do
+        route idRoute
+        compile copyFileCompiler
+
     (match . fromList) ["index.md", "work.md"] $ do
         route $ setExtension "html"
         compile $
