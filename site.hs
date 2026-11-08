@@ -33,13 +33,7 @@ main = hakyllWith config $ do
         route $ setExtension "html"
         compile $
             pandocCompiler
-                >>= loadAndApplyTemplate "templates/default.html" postCtx
+                >>= loadAndApplyTemplate "templates/default.html" defaultContext
                 >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
-
---------------------------------------------------------------------------------
-postCtx :: Context String
-postCtx =
-    dateField "date" "%B %e, %Y"
-        `mappend` defaultContext
