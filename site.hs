@@ -29,8 +29,11 @@ main = hakyllWith config $ do
         route idRoute
         compile copyFileCompiler
 
-    (match . fromList) ["index.md", "research.md"] $ do
-        route $ setExtension "html"
+    match "pages/*" $ do
+        route $
+            composeRoutes
+                (gsubRoute "pages/" (const ""))
+                (setExtension "html")
         compile $
             pandocCompiler
                 >>= loadAndApplyTemplate "templates/default.html" defaultContext
