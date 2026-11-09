@@ -57,7 +57,18 @@ nav a {
   text-transform: uppercase;
 }
 
-nav a,
+nav a .tight {
+  margin-right: -0.03em;
+}
+
+nav a .loose {
+  margin-right: 0.03em;
+}
+
+nav a {
+    letter-spacing: 0.02em;
+}
+
 .logo a {
   letter-spacing: 0.04em;
 }
