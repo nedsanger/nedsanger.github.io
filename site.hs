@@ -29,7 +29,7 @@ main = hakyllWith config $ do
         route idRoute
         compile copyFileCompiler
 
-    (match . fromList) ["index.md", "work.md"] $ do
+    (match . fromList) ["index.md", "research.md"] $ do
         route $ setExtension "html"
         compile $
             pandocCompiler
